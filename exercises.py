@@ -13,15 +13,26 @@ print(greeting); #this should print 'Hello Prepster'
 #Declare variables named first_name, last_name, birth_place, hobby, role_model, famous_quote, fav_president, fav_food, fav_color, fav_song
 
 #Assign your own string values to each variable and print each variable.
+first_name = 'camille'
+print(first_name)
+last_name = 'aiona'
+print(last_name)
+birth_place = 'hilo'
+print(birth_place)
+hobby = 'coding'
+print(hobby)
 
 
 #2 String Concatenation
 #Declare a variable named full_name and concatenate first_name and last_name. Print the full_name variable.
+full_name = first_name + last_name
+print(full_name)
+
 
 
 #Declare a variable named intro that creates the following sentence:
 #'Hello, my name is x and I was born in y.' Where x is full_name and y is birth_place. Print the intro variable.
-
+intro
 
 #Declare a variable named about_me that creates the following sentence:
 #'My hobby is x, my favorite song is y, and I like to eat z.' Where x is hobby, y is fav_song and z is fav_food. Print the about_me variable.
