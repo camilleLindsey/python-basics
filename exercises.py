@@ -27,7 +27,7 @@ famous_quote = 'Though talents may be given, they need to be cultivated '
 print(famous_quote)
 fav_president = 'Gordon Bitner Hinckley'
 print(fav_president)
-fav_food = 'juicing'
+fav_food = 'juice'
 print(fav_food)
 fav_color = 'gray'
 print(fav_color)
@@ -45,18 +45,14 @@ print(full_name)
 #Declare a variable named intro that creates the following sentence:
 #'Hello, my name is x and I was born in y.' Where x is full_name and y is birth_place. Print the intro variable.
 
-x = full_name
-y = birth_place
-intro = 'hello my name is' + x + 'and i was born in ' +  y +'.'
+
+intro = 'hello my name is ' + full_name + ' and i was born in ' +  birth_place + '.'
 print(intro)
 
 #Declare a variable named about_me that creates the following sentence:
 #'My hobby is x, my favorite song is y, and I like to eat z.' Where x is hobby, y is fav_song and z is fav_food. Print the about_me variable.
-
-x = hobby
-y = fav_song
-z = fav_food 
-about_me = 'my hobby is ' + x + 'my favorite song is ' + y + ' , and i like to eat' + z '.'
+ 
+about_me = 'my hobby is ' + hobby + ' my favorite song is ' + fav_song + ' , and i like to eat ' + fav_food + '.'
 print(about_me)
 
 
