@@ -55,16 +55,19 @@ print(intro)
 about_me = 'my hobby is ' + hobby + ' my favorite song is ' + fav_song + ' , and i like to eat ' + fav_food + '.'
 print(about_me)
 
-
 #3 Spacing with tabs and newlines
 #Declare a variable named my_hero that the following sentence using a tab:
 #'My hero is x and his famous quote is y.' Where x is role_model and y is famous_quote. Print the my_hero variable.
 
+my_hero = '\tMy hero is ' + role_model + ' and his famous quote is ' + famous_quote + '.'
+print(my_hero)
 
 #Declare a variable named my_favs that creates the following sentence and returns a new line after each numbered item. 
 #'This is what I like: 1. hobby 2. fav_color 3. fav_song
 #Print the my_favs variable.
 
+my_favs = 'This is what I like: \n1. ' + hobby + '\n2. ' + fav_color + '\n3. ' + fav_song
+print(my_favs)
 
 #4 Variables with a Number value
 #Declare variables named age, weight, shoe_size, fav_number, yen_rate, bitcoin_value, todays_temperature, hawaii_popuation, countries_traveled, number_of_siblings
