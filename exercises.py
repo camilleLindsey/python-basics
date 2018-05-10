@@ -13,15 +13,15 @@ print(greeting); #this should print 'Hello Prepster'
 #Declare variables named first_name, last_name, birth_place, hobby, role_model, famous_quote, fav_president, fav_food, fav_color, fav_song
 
 #Assign your own string values to each variable and print each variable.
-first_name = 'camille'
+first_name = 'camille '
 print(first_name)
-last_name = 'aiona'
+last_name = 'lindsey '
 print(last_name)
 birth_place = 'hilo'
 print(birth_place)
 hobby = 'coding'
 print(hobby)
-role_model = 'lord'
+role_model = 'Lord'
 print(role_model)
 famous_quote = 'Though talents may be given, they need to be cultivated '
 print(famous_quote)
@@ -74,32 +74,61 @@ print(my_favs)
 
 #Assign your own number values to each variable and print each variable.
 
+age = 21
+print(age)
+weight = 97
+print(weight)
+shoe_size = 8
+print(shoe_size)
+fav_number = 8
+print(fav_number)
+yen_rate = 0.0091 
+print(yen_rate)
+bitcoin_value = 9,315.00 
+print(bitcoin_value)
+todays_temperature = 77 
+print(todays_temperature)
+hawaii_popuation = 1.428 
+print(hawaii_popuation)
+countries_traveled = 1
+print(countries_traveled)
+number_of_siblings = 1
+
 #5 Number as Strings Concatenation
 #Declare a variable named self_intro that creates the following sentence:
 #'Aloha, my name is x and I am y years old and my shoe size is z.' Where x is full_name, y is age and z is shoe_size. Print the self_intro variable.
-
+self_intro = 'aloha, my name is ' + full_name + 'and i am ' + str(age)  + ' years old and my shoe size is ' + str(shoe_size) + '.'
+print(self_intro)
 
 #Declare a variable named market_update that creates the following sentence:
 #"Today's bitcoin value is x and the yen exchange rate is y." Where x is bitcoin_value and y is yen_rate. Print the market_update variable.
 
+market_update = "today's bitcoin value is " + str(bitcoin_value) + "and the yen exchange rate is " + str(yen_rate) + "."
+print(market_update)
 
 #Declare a variable named about_hawaii that creates the following sentence:
 #"Did you know that Hawaii's population is x and the average temperatue is y?" Where x is hawaii_population and y is todays_temperature. Print the about_hawaii variable.
 
+about_hawaii = "did you know that hawaii's population is " + str(hawaii_popuation) + " and the average temperature is " + str(todays_temperature) + '?'
+print(about_hawaii)
 
 #6 Variables with a List value
 #Declare a variable named fab_five and assign it a list containing five of your all time favorite snacks. Print the fab_five variable.
 
+fab_five = ['lilikoi', 'salsa', 'lemons', 'sugar_cane_juice', 'shave_ice']
+print(fab_five)
 
 #Declare a variable named plate_lunch and assign it a list containing five of your favorite lunch items. Print the plate_lunch variable.
-
-
+plate_lunch = ['acai_bowl', 'watermelon', 'papaya', 'v8', 'smoothie' ]
+print(plate_lunch)
 #Declare a variable named ice_cream and assign it a list containing three of your favorite ice cream flavors. Print the ice_cream variable.
 
-
+ice_cream = ['vanilla', 'chocolate', 'coffee']
+print(ice_cream)
 #Declare a variable named west_siiiiide and assign it a list containing states found on the west coast of the US. Print the west_siiiiide variable.
 
-
+west_siiiiide = ['California', 'Oregon', 'Washington']
+print(west_siiiiide)
 #Declare a variable named mega_millions and assign it a list containing the Mega Millions Lottery results for May, 4, 2018
 #https://www.lotteryusa.com/mega-millions/. Print the mega_millions variable
 
