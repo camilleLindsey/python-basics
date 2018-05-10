@@ -21,6 +21,18 @@ birth_place = 'hilo'
 print(birth_place)
 hobby = 'coding'
 print(hobby)
+role_model = 'lord'
+print(role_model)
+famous_quote = 'Though talents may be given, they need to be cultivated '
+print(famous_quote)
+fav_president = 'Gordon Bitner Hinckley'
+print(fav_president)
+fav_food = 'juicing'
+print(fav_food)
+fav_color = 'gray'
+print(fav_color)
+fav_song = 'Enter Sandman'
+print(fav_song)
 
 
 #2 String Concatenation
@@ -32,10 +44,20 @@ print(full_name)
 
 #Declare a variable named intro that creates the following sentence:
 #'Hello, my name is x and I was born in y.' Where x is full_name and y is birth_place. Print the intro variable.
-intro
+
+x = full_name
+y = birth_place
+intro = 'hello my name is' + x + 'and i was born in ' +  y +'.'
+print(intro)
 
 #Declare a variable named about_me that creates the following sentence:
 #'My hobby is x, my favorite song is y, and I like to eat z.' Where x is hobby, y is fav_song and z is fav_food. Print the about_me variable.
+
+x = hobby
+y = fav_song
+z = fav_food 
+about_me = 'my hobby is ' + x + 'my favorite song is ' + y + ' , and i like to eat' + z '.'
+print(about_me)
 
 
 #3 Spacing with tabs and newlines
@@ -52,7 +74,6 @@ intro
 #Declare variables named age, weight, shoe_size, fav_number, yen_rate, bitcoin_value, todays_temperature, hawaii_popuation, countries_traveled, number_of_siblings
 
 #Assign your own number values to each variable and print each variable.
-
 
 #5 Number as Strings Concatenation
 #Declare a variable named self_intro that creates the following sentence:
