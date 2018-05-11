@@ -140,14 +140,16 @@ hamajang = ['tomatos', 9, ['a', 'b'], {'name': 'Elon', 'age': 47}, ('dog', 'tige
 print(hamajang)
 
 #Declare a variable named dynamic_duos and assign it a list containing 3 lists, with each list containing items that pairs well with each other. Print the dynamic_duos variable.
-
+dynamic_duos = [['gin', 'tonic'], ['peanut_butter', 'chocolate'], ['cheeseburger', 'french_fries']]
+print(dynamic_duos)
 #Print the following:
 #Gin
+print(dynamic_duos[0][0])
 
 #peanut butter  
-
+print(dynamic_duos[1][0])
 #cheeseburger
-
+print(dynamic_duos[2][0])
 
 #7 Accessing values in List
 vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch doritos', 'oreos', 'Safeway fried chicken', 'Morning Glass coffee']
