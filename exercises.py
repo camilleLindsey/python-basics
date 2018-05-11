@@ -239,6 +239,13 @@ print(bank)
 
 #Print the pandas variable.
 
+pandas = {}
+pandas['name'] = 'Panda Express',
+pandas['restaurants'] =  2000,
+pandas['cuisin']='Gourmet Chinese Food',
+pandas['menu']=['Orange Chicken', 'Walnut Shrimp', 'Sweet and Sout pork'],
+pandas['highest_revenue']='Ala Moana Center Food Court',
+print(pandas)
 
 #Declare a variable named bucket_list and assign it to an EMPTY dictionary.
 #You will add the following key-value pairs:
@@ -249,6 +256,13 @@ print(bank)
 # - key: meet_person string value of your choice  
 
 #Print the bucket_list variable.
+bucket_list={}
+bucket_list['travel']='Molokai',
+bucket_list['learn']='code',
+bucket_list['weight']=50,
+bucket_list['to do']=['learn javascript', 'practice', 'python'],
+bucket_list['meet_person']='teacher'
+print(bucket_list)
 
 
 #9 Variable with a Tuple value
