@@ -269,19 +269,22 @@ print(bucket_list)
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
 
 #Print the bruce_bio variable.
-
+bruce_bio=('Bruce Lee', 'male', 32, 'San Fancisco', ['Kung-Fu Master', 'actor', 'philosopher'] )
+print(bruce_bio)
 
 #Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
 
 #Print the movies variable.
-
+movies=(['The Big Boss', 1971], ['Fist of Fury', 1972], ['The Way of the Dragon', 1972],['The Game of Death', 1972] )
+print(movies)
 
 #Declare a variable named updated_bio and add the bruce_bio and movies tuples together. Print the updated_bio variable.
 
-
+updated_bio= bruce_bio + movies
+print(updated_bio)
 #Print the following values:
 #The length of the updated_bio tuple
-
+print(len(updated_bio))
 #Bruce Lee
 
 #Index position 1
