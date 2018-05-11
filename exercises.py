@@ -267,48 +267,51 @@ print(bucket_list)
 
 #9 Variable with a Tuple value
 #Declare a variable named bruce_bio and assign a tuple containing the following values: Bruce Lee, male, 32, San Francisco, [Kung-Fu Master, actor, philosopher]
-
 #Print the bruce_bio variable.
 bruce_bio=('Bruce Lee', 'male', 32, 'San Fancisco', ['Kung-Fu Master', 'actor', 'philosopher'] )
 print(bruce_bio)
-
 #Declare a variable named movies and assign a tuple containing the following values: [The Big Boss, 1971],[Fist of Fury, 1972], [The Way of the Dragon, 1972], [The Game of Death, 1972]
-
 #Print the movies variable.
 movies=(['The Big Boss', 1971], ['Fist of Fury', 1972], ['The Way of the Dragon', 1972],['The Game of Death', 1972] )
 print(movies)
-
 #Declare a variable named updated_bio and add the bruce_bio and movies tuples together. Print the updated_bio variable.
-
 updated_bio= bruce_bio + movies
 print(updated_bio)
 #Print the following values:
 #The length of the updated_bio tuple
 print(len(updated_bio))
 #Bruce Lee
-
+print(updated_bio[0])
 #Index position 1
-
+print(updated_bio[1])
 #['Game of Death', 1972]
-
+print(updated_bio[-1])
 #philosopher
-
+print(updated_bio[4][2])
 #1971
-
+print(updated_bio[5][1])
 #The Way of the Dragon
-
+print(updated_bio[7][0])
 #Fist of Fury
-
+print(updated_bio[6][0])
 #The last value using -1
-
+print(updated_bio[-1])
 #Game of Death using -1
-
+print(updated_bio[-1][0])
 
 #10 Variables with a Boolean value
 #Declare the following variables and assign either a True or false value for each.
 #female, american, likes_coding, is_hungry, has_a_dog
-
-
-
 #Print each variable that you declare.
+female= True
+print(female)
+american = True
+print(american)
+likes_coding = True
+print(likes_coding)
+is_hungry = False
+print(is_hungry)
+has_a_dog = True
+print(has_a_dog)
+
 
