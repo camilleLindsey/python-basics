@@ -132,15 +132,19 @@ print(west_siiiiide)
 #Declare a variable named mega_millions and assign it a list containing the Mega Millions Lottery results for May, 4, 2018
 #https://www.lotteryusa.com/mega-millions/. Print the mega_millions variable
 
+mega_millions = [8, 15, 39, 64, 67 ]
+print(mega_millions)
 
 #Declare a variable named hamajang and assign it a list containing six different data types. Print the hamajang variable.
+hamajang = ['tomatos', 9, ['a', 'b'], {'name': 'Elon', 'age': 47}, ('dog', 'tiger', 'giraffe')]
+print(hamajang)
 
 #Declare a variable named dynamic_duos and assign it a list containing 3 lists, with each list containing items that pairs well with each other. Print the dynamic_duos variable.
 
 #Print the following:
 #Gin
 
-#peanut butter
+#peanut butter  
 
 #cheeseburger
 
@@ -260,6 +264,8 @@ vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch 
 #10 Variables with a Boolean value
 #Declare the following variables and assign either a True or false value for each.
 #female, american, likes_coding, is_hungry, has_a_dog
+
+
 
 #Print each variable that you declare.
 
