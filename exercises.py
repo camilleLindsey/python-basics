@@ -155,20 +155,20 @@ print(dynamic_duos[2][0])
 vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch doritos', 'oreos', 'Safeway fried chicken', 'Morning Glass coffee']
 
 #Print the entire list.
-
+print(vics_list)
 #Print the length of the list.
-
+print(len(vics_list))
 #Print only the first element in the list.
-
+print(vics_list[0])
 #Print only the last element in the list.
-
+print(vics_list[6])
 #Print 'Safeway fried chicken'
-
+print(vics_list[5])
 #Replace 'cool ranch doritos' with 'carrot cake' and print the list.
-
+vics_list[3]='carrot_cake'
+print(vics_list)
 #Print the last element in the list using -1
-
-
+print(vics_list[-1])
 #8 Variables with a Dictionary value
 #Declare a variable named car and create the following key-value pairs:
 # - key: brand string value: Tesla,
@@ -177,9 +177,16 @@ vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch 
 # - key: color string value: red,
 # - key: production boolean value: False,
 # - key: features list value: moon roof, leather seats, iphone docker
-
+car = {
+    'brand': 'tesla', 
+    'model': 'model 3', 
+    'price': 35000, 
+    'color': 'red', 
+    'production': False, 
+    'features': ['moon roof', 'leather seats', 'iphone docker']
+    }
 #Print the car variable.
-
+print(car)
 
 #Declare a variable named footwear and create the following key-value pairs:
 # - key: brand string value: Vivo Barefoot,
@@ -191,8 +198,16 @@ vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch 
 # - key: ordered boolean value: True
 
 #Print the footwear variable.
-
-
+footwear = {
+    'brand': 'vivo barefoot',
+    'url': 'https://www.vivobarefoot.com/us',
+    'gender': 'Mens',
+    'type': 'Ababa Canvas',
+    'price': 80,
+    'color': ['tan', 'black stripes', 'gum'],
+    'ordered': True
+}
+print(footwear)
 #Declare a variable named bank and create the following key-value pairs:
 # - key: name  string value: First Hawaiian Bank,
 # - key: employees number value: 2200,
@@ -203,7 +218,16 @@ vics_list = ['Hendricks gin', 'Fever Tree tonic', 'Costco pub mix', 'cool ranch 
 # - key: executive dictionary value: name: Robert Harrison, title CEO, salary: 2000000
 
 #Print the bank variable.
-
+bank = {
+    'name': 'First Hawaiian Bank',
+    'employees': 2200,
+    'headquarters': 'Honolulu',
+    'revenue': 700000000,
+    'nasdaq': 'FHB',
+    'products': ['savings', 'loans', 'trust', 'wealth management'],
+    'executive': {'name': 'Robert Harrison','title': 'CEO','salary': 2000000}
+}
+print(bank)
 
 #Declare a variable pandas and assign it an EMPTY dictionary.
 #You will add the following key-value pairs:
